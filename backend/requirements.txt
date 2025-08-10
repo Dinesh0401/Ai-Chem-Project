@@ -1,0 +1,16 @@
+flask==2.3.3
+flask-cors==4.0.0
+torch>=1.12.0
+numpy
+pandas
+tqdm
+gymnasium
+
+# Optional (recommended for real functionality)
+# rdkit-pypi==2023.3.2      # RDKit (heavy -> optional, use conda if possible)
+# torch-geometric==2.x      # PyTorch Geometric (heavy -> optional)
+# stable-baselines3         # RL library (optional)
+#
+# Notes:
+# - RDKit and torch-geometric are large and often easier installed via conda.
+# - This backend will run with dummy fallbacks if those packages are not present.
